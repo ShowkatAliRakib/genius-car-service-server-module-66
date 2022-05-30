@@ -70,6 +70,9 @@ app.get('/', (req, res)=>{
     res.send('Running Genius Server')
 });
 
+app.get('/hero',  (req, res)=>{
+    res.send('hero meet heroku ')
+})
 
 app.listen(port, ()=>{
     console.log('listen to port' , port);
